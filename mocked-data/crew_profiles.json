@@ -1,0 +1,38 @@
+[
+  {
+    "astronaut_id": "2445",
+    "display_name": "Cmdr. Avery",
+    "mission_role": "Commander",
+    "mission_id": "DEMO-MARS-01",
+    "status": "simulated_active",
+    "profile_updated_at": "2026-11-07T12:00:00Z",
+    "is_synthetic": true
+  },
+  {
+    "astronaut_id": "2446",
+    "display_name": "Dr. Rivera",
+    "mission_role": "Medical Officer",
+    "mission_id": "DEMO-MARS-01",
+    "status": "simulated_active",
+    "profile_updated_at": "2026-11-07T12:00:00Z",
+    "is_synthetic": true
+  },
+  {
+    "astronaut_id": "2447",
+    "display_name": "Eng. Chen",
+    "mission_role": "Flight Engineer",
+    "mission_id": "DEMO-MARS-01",
+    "status": "simulated_active",
+    "profile_updated_at": "2026-11-07T12:00:00Z",
+    "is_synthetic": true
+  },
+  {
+    "astronaut_id": "2448",
+    "display_name": "Spec. Noor",
+    "mission_role": "Mission Specialist",
+    "mission_id": "DEMO-MARS-01",
+    "status": "simulated_active",
+    "profile_updated_at": "2026-11-07T12:00:00Z",
+    "is_synthetic": true
+  }
+]

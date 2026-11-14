@@ -1,0 +1,32 @@
+[
+  {
+    "id": "obs-manual-0001",
+    "astronaut_id": "2445",
+    "metric": "heart_rate",
+    "value": 23,
+    "unit": "bpm",
+    "measured_at": "2026-11-14T09:00:00Z",
+    "entered_at": "2026-11-14T09:01:00Z",
+    "source": "synthetic_manual_earth",
+    "operator_id": "doctor-demo-01",
+    "quality": "unverified",
+    "origin_node": "earth",
+    "note": "Deliberately suspicious value for input verification demo.",
+    "is_synthetic": true
+  },
+  {
+    "id": "obs-manual-0002",
+    "astronaut_id": "2445",
+    "metric": "heart_rate",
+    "value": 76,
+    "unit": "bpm",
+    "measured_at": "2026-11-14T09:11:00Z",
+    "entered_at": "2026-11-14T09:12:00Z",
+    "source": "synthetic_manual_spacecraft",
+    "operator_id": "crew-demo-2445",
+    "quality": "unverified",
+    "origin_node": "spacecraft",
+    "note": "Repeat fictional manual reading, not medically certified.",
+    "is_synthetic": true
+  }
+]

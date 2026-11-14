@@ -1,0 +1,26 @@
+[
+  {
+    "id": "action-0001",
+    "astronaut_id": "2445",
+    "actor_id": "crew-demo-2445",
+    "origin_node": "spacecraft",
+    "action_type": "repeat_measurement",
+    "linked_alert_id": "alert-0001",
+    "linked_observation_id": "obs-manual-0002",
+    "action_text": "Recorded a repeat fictional manual heart-rate reading.",
+    "recorded_at": "2026-11-14T09:12:00Z",
+    "is_synthetic": true
+  },
+  {
+    "id": "action-0002",
+    "astronaut_id": "2448",
+    "actor_id": "crew-demo-2448",
+    "origin_node": "spacecraft",
+    "action_type": "sensor_check",
+    "linked_alert_id": "alert-0003",
+    "linked_observation_id": null,
+    "action_text": "Checked simulated sensor connection; signal subsequently restored.",
+    "recorded_at": "2026-11-13T11:15:00Z",
+    "is_synthetic": true
+  }
+]

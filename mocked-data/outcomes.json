@@ -1,0 +1,29 @@
+[
+  {
+    "id": "outcome-0001",
+    "astronaut_id": "2445",
+    "linked_alert_id": "alert-0001",
+    "linked_action_id": "action-0001",
+    "source_observation_ids": [
+      "obs-manual-0001",
+      "obs-manual-0002"
+    ],
+    "recorded_at": "2026-11-14T09:13:00Z",
+    "outcome_text": "Repeat value is different; original entry remains unverified pending review.",
+    "verification_status": "not_clinically_verified",
+    "is_synthetic": true
+  },
+  {
+    "id": "outcome-0002",
+    "astronaut_id": "2448",
+    "linked_alert_id": "alert-0003",
+    "linked_action_id": "action-0002",
+    "source_observation_ids": [
+      "hr-2448-143"
+    ],
+    "recorded_at": "2026-11-13T11:20:00Z",
+    "outcome_text": "Synthetic sensor feed resumed; no medical conclusion was drawn.",
+    "verification_status": "simulation_only",
+    "is_synthetic": true
+  }
+]

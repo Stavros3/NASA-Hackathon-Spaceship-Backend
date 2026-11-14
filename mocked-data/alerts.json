@@ -1,0 +1,60 @@
+[
+  {
+    "id": "alert-0001",
+    "astronaut_id": "2445",
+    "severity": "review_required",
+    "category": "manual_value_verification",
+    "rule_id": "DEMO_HR_MANUAL_OUTLIER",
+    "evidence_ids": [
+      "obs-manual-0001"
+    ],
+    "message": "Very low manual heart-rate entry; verify value, units, and measurement method.",
+    "detected_at": "2026-11-14T09:01:30Z",
+    "state": "awaiting_review",
+    "rule_version": "demo-rules-v1",
+    "clinical_validation": false,
+    "is_synthetic": true
+  },
+  {
+    "id": "alert-0002",
+    "astronaut_id": "2446",
+    "severity": "review_required",
+    "category": "personal_baseline_deviation",
+    "rule_id": "DEMO_SUSTAINED_REST_HR_TREND",
+    "evidence_ids": [
+      "hr-2446-161",
+      "hr-2446-162",
+      "hr-2446-163",
+      "hr-2446-164",
+      "hr-2446-165",
+      "hr-2446-166"
+    ],
+    "message": "Fictional sustained heart-rate rise relative to personal demo baseline during non-exercise periods.",
+    "detected_at": "2026-11-14T10:01:00Z",
+    "state": "awaiting_review",
+    "rule_version": "demo-rules-v1",
+    "clinical_validation": false,
+    "is_synthetic": true
+  },
+  {
+    "id": "alert-0003",
+    "astronaut_id": "2448",
+    "severity": "data_quality",
+    "category": "sensor_disconnected",
+    "rule_id": "DEMO_SENSOR_MISSING",
+    "evidence_ids": [
+      "hr-2448-140",
+      "spo2-2448-140",
+      "hr-2448-141",
+      "spo2-2448-141",
+      "hr-2448-142",
+      "spo2-2448-142"
+    ],
+    "message": "Heart-rate and SpO₂ sensor readings are unavailable; do not infer a health condition.",
+    "detected_at": "2026-11-13T08:01:00Z",
+    "state": "acknowledged",
+    "rule_version": "demo-rules-v1",
+    "clinical_validation": false,
+    "is_synthetic": true
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "event-0001",
+    "origin": "spacecraft",
+    "destination": "earth",
+    "kind": "observation_created",
+    "priority": "normal",
+    "entity_id": "hr-2446-161",
+    "created_at": "2026-11-14T05:00:05Z",
+    "status": "pending_for_demo",
+    "is_synthetic": true
+  },
+  {
+    "event_id": "event-0002",
+    "origin": "spacecraft",
+    "destination": "earth",
+    "kind": "alert_created",
+    "priority": "high",
+    "entity_id": "alert-0002",
+    "created_at": "2026-11-14T10:01:00Z",
+    "status": "pending_for_demo",
+    "is_synthetic": true
+  },
+  {
+    "event_id": "event-0003",
+    "origin": "earth",
+    "destination": "spacecraft",
+    "kind": "doctor_note_created",
+    "priority": "high",
+    "entity_id": "note-0001",
+    "created_at": "2026-11-14T09:05:00Z",
+    "status": "pending_for_demo",
+    "is_synthetic": true
+  }
+]

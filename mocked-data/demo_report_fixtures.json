@@ -1,0 +1,52 @@
+[
+  {
+    "id": "report-0001",
+    "astronaut_id": "2445",
+    "linked_alert_ids": [
+      "alert-0001"
+    ],
+    "generated_at": "2026-11-14T09:03:00Z",
+    "summary": "A manually entered heart rate of 23 bpm requires measurement verification and medical review.",
+    "observed_facts": [
+      "Manual heart-rate observation 23 bpm at 09:00 UTC."
+    ],
+    "uncertainty": [
+      "Value and entry method are unverified."
+    ],
+    "evidence_ids": [
+      "obs-manual-0001"
+    ],
+    "model_name": "fixture_only_not_ai",
+    "source": "synthetic_prefilled_demo_report",
+    "is_ai_generated": false,
+    "is_synthetic": true
+  },
+  {
+    "id": "report-0002",
+    "astronaut_id": "2446",
+    "linked_alert_ids": [
+      "alert-0002"
+    ],
+    "generated_at": "2026-11-14T10:03:00Z",
+    "summary": "Fictional resting heart-rate trend differs from the personal demo baseline; contextual review is needed.",
+    "observed_facts": [
+      "Elevated heart-rate sequence during non-exercise context.",
+      "Shorter synthetic sleep reported."
+    ],
+    "uncertainty": [
+      "Simulation cannot establish a diagnosis or cause."
+    ],
+    "evidence_ids": [
+      "hr-2446-161",
+      "hr-2446-162",
+      "hr-2446-163",
+      "hr-2446-164",
+      "hr-2446-165",
+      "hr-2446-166"
+    ],
+    "model_name": "fixture_only_not_ai",
+    "source": "synthetic_prefilled_demo_report",
+    "is_ai_generated": false,
+    "is_synthetic": true
+  }
+]

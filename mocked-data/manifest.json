@@ -1,0 +1,102 @@
+{
+  "package_name": "ASTRA-MED Synthetic JSON Dataset Pack",
+  "version": "1.0.0",
+  "generated_at": "2026-11-14T12:00:00Z",
+  "mission_id": "DEMO-MARS-01",
+  "data_classification": "100% SYNTHETIC — generated solely for hackathon demonstration",
+  "crew_count": 4,
+  "time_range_utc": {
+    "start": "2026-11-07T12:00:00Z",
+    "end_exclusive": "2026-11-14T12:00:00Z"
+  },
+  "radiation_data_included": false,
+  "radiation_integration_note": "Import actual NASA RadLab records separately. DO NOT label synthetic environmental measurements as NASA data.",
+  "notes": [
+    "Do not use synthetic readings for medical diagnosis or treatment.",
+    "Demo alert rules are not clinician validated.",
+    "demo_report_fixtures.json contains authored sample summaries, not LLM inference.",
+    "observations_all.json duplicates individual vital-sign tables and must not be imported in addition to them."
+  ],
+  "files": [
+    {
+      "name": "activity.json",
+      "rows": 84
+    },
+    {
+      "name": "alerts.json",
+      "rows": 3
+    },
+    {
+      "name": "baselines.json",
+      "rows": 16
+    },
+    {
+      "name": "blood_pressure_checkins.json",
+      "rows": 28
+    },
+    {
+      "name": "cabin_environment.json",
+      "rows": 168
+    },
+    {
+      "name": "crew_profiles.json",
+      "rows": 4
+    },
+    {
+      "name": "demo_report_fixtures.json",
+      "rows": 2
+    },
+    {
+      "name": "demo_scenarios.json",
+      "rows": 5
+    },
+    {
+      "name": "doctor_notes.json",
+      "rows": 2
+    },
+    {
+      "name": "heart_rate.json",
+      "rows": 672
+    },
+    {
+      "name": "manual_observations.json",
+      "rows": 2
+    },
+    {
+      "name": "medical_actions.json",
+      "rows": 2
+    },
+    {
+      "name": "observations_all.json",
+      "rows": 2688
+    },
+    {
+      "name": "outcomes.json",
+      "rows": 2
+    },
+    {
+      "name": "respiratory_rate.json",
+      "rows": 672
+    },
+    {
+      "name": "skin_temperature.json",
+      "rows": 672
+    },
+    {
+      "name": "sleep.json",
+      "rows": 28
+    },
+    {
+      "name": "spo2.json",
+      "rows": 672
+    },
+    {
+      "name": "symptom_checkins.json",
+      "rows": 28
+    },
+    {
+      "name": "sync_event_fixtures.json",
+      "rows": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "scenario_id": "scenario-001",
+    "name": "Exercise is not automatically an alert",
+    "astronaut_id": "2447",
+    "start_at": "2026-11-12T15:00:00Z",
+    "related_ids": [
+      "hr-2447-123"
+    ],
+    "expected_behavior": "Show context=exercise and avoid inferring a resting anomaly.",
+    "is_synthetic": true
+  },
+  {
+    "scenario_id": "scenario-002",
+    "name": "Verify suspicious manual entry",
+    "astronaut_id": "2445",
+    "start_at": "2026-11-14T09:00:00Z",
+    "related_ids": [
+      "obs-manual-0001",
+      "alert-0001",
+      "note-0001"
+    ],
+    "expected_behavior": "Preserve source and units; create review-required flag; record repeat reading.",
+    "is_synthetic": true
+  },
+  {
+    "scenario_id": "scenario-003",
+    "name": "Sensor disconnect",
+    "astronaut_id": "2448",
+    "start_at": "2026-11-13T08:00:00Z",
+    "related_ids": [
+      "alert-0003"
+    ],
+    "expected_behavior": "Show data-quality warning instead of falsely diagnosing illness.",
+    "is_synthetic": true
+  },
+  {
+    "scenario_id": "scenario-004",
+    "name": "Baseline deviation with limited sleep",
+    "astronaut_id": "2446",
+    "start_at": "2026-11-14T05:00:00Z",
+    "related_ids": [
+      "alert-0002",
+      "checkin-2446-06"
+    ],
+    "expected_behavior": "Display evidence-linked trend, uncertainty, and doctor review request.",
+    "is_synthetic": true
+  },
+  {
+    "scenario_id": "scenario-005",
+    "name": "Cabin CO2 trend",
+    "astronaut_id": null,
+    "start_at": "2026-11-13T16:00:00Z",
+    "related_ids": [],
+    "expected_behavior": "Display environmental trend separately; do not claim causation for symptoms.",
+    "is_synthetic": true
+  }
+]

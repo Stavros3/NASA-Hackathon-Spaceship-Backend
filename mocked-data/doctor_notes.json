@@ -1,0 +1,26 @@
+[
+  {
+    "id": "note-0001",
+    "astronaut_id": "2445",
+    "author_id": "doctor-demo-01",
+    "origin_node": "earth",
+    "recorded_at": "2026-11-14T09:05:00Z",
+    "classification": "requires_verification",
+    "linked_alert_id": "alert-0001",
+    "text": "Please repeat the measurement and verify the original source and units. Demo note only.",
+    "source": "synthetic_clinician_entry",
+    "is_synthetic": true
+  },
+  {
+    "id": "note-0002",
+    "astronaut_id": "2446",
+    "author_id": "doctor-demo-01",
+    "origin_node": "earth",
+    "recorded_at": "2026-11-14T10:12:00Z",
+    "classification": "request_review",
+    "linked_alert_id": "alert-0002",
+    "text": "Review the trend alongside sleep and activity context. Demo note only.",
+    "source": "synthetic_clinician_entry",
+    "is_synthetic": true
+  }
+]
